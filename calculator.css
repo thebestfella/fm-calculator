@@ -1,0 +1,43 @@
+.default {
+    font-weight: bold;
+    border: 0px solid black;
+    outline: black solid 2px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.calc_output {
+    width: 252px;
+    height: 40px;
+    background-color:#000000;
+    color: #dddddd ;
+    text-align: right;
+}
+.calc_single {
+    width: 60px;
+    height: 60px;
+    background-color:#d8d9db;
+}
+.calc_single:hover { background-color:#ebebeb;}
+
+.calc_double {
+    width: 124px;
+    height: 60px;
+    background-color:#d8d9db;
+}
+.calc_double:hover { background-color:#ebebeb;}
+
+.calc_tripple {
+    width: 188px;
+    height: 60px;
+    background-color:#d8d9db;
+}
+.calc_tripple:hover { background-color:#ebebeb;}
+
+.calc_annotation {
+    width: 60px;
+    height: 60px;
+    background-color:#df974c;
+    color: #dddddd ;
+}
+.calc_annotation:hover { background-color:#dfb07e;}

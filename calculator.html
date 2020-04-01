@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+
+<body>
+    <div class = "btn-group">
+        <button class="calc_output default" id = "output">0</button>
+    </div>
+    <div class = "btn-group">
+        <button class="calc_double default" onclick = "clickCancel()">C</button>
+        <button class="calc_single default" onclick = "clickBack()"><-</button>
+        <button class="calc_annotation default" onclick = "clickDiv()">/</button>
+    </div>
+    <div class = "btn-group">
+        <button class="calc_single default" onclick = "click7()">7</button>
+        <button class="calc_single default" onclick = "click8()">8</button>
+        <button class="calc_single default" onclick = "click9()">9</button>
+        <button class="calc_annotation default" onclick = "clickMul()">x</button>
+    </div>
+    <div class = "btn-group">
+        <button class="calc_single default"  onclick = "click4()">4</button>
+        <button class="calc_single default" onclick = "click5()">5</button>
+        <button class="calc_single default" onclick = "click6()">6</button>
+        <button class="calc_annotation default" onclick = "clickSub()">-</button>
+    </div>
+    <div class = "btn-group">
+        <button class="calc_single default" onclick = "click1()">1</button>
+        <button class="calc_single default" onclick = "click2()">2</button>
+        <button class="calc_single default" onclick = "click3()">3</button>
+        <button class="calc_annotation default" onclick = "clickAdd()">+</button>
+    </div>
+    <div class = "btn-group">
+        <button class="calc_tripple default" onclick = "click0()">0</button>
+        <button class="calc_annotation default" onclick = "clickEqu()">=</button>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+
+</html>
